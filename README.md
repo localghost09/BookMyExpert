@@ -35,6 +35,7 @@ Visit the live website: [BookMyExpert](https://localghost09.github.io/BookMyExpe
 ## 🎨 Design
 
 The website features a modern, clean design with:
+
 - Blue primary color scheme (#3B82F6)
 - Responsive grid layouts
 - Smooth hover animations
@@ -65,15 +66,17 @@ Random_Project/
 ## 🚀 Getting Started
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/bookmyexpert.git
    ```
 
 2. Open `index.html` in your browser or serve with a local server:
+
    ```bash
    # Using Python
    python -m http.server 8000
-   
+
    # Using Node.js
    npx serve .
    ```
