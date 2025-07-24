@@ -1,4 +1,4 @@
-// Browse experts page functionality
+// Browse experts page functionality - Updated with Indian experts
 
 // Dummy data for experts
 const expertsData = [
