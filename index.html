@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookMyExpert - Connect with Professionals</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#1E40AF'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center space-x-2">
+                        <i class="fas fa-calendar-check text-primary text-2xl"></i>
+                        <span class="text-xl font-bold text-gray-900">BookMyExpert</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-900 hover:text-primary font-medium">Home</a>
+                    <a href="browse.html" class="text-gray-600 hover:text-primary">Browse Experts</a>
+                    <a href="about.html" class="text-gray-600 hover:text-primary">About</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-primary">Contact</a>
+                    <a href="login.html" class="text-gray-600 hover:text-primary">Login</a>
+                    <a href="register.html" class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-secondary transition">Sign Up</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-gray-900">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-4 py-2 space-y-2">
+                <a href="index.html" class="block text-gray-900 hover:text-primary font-medium py-2">Home</a>
+                <a href="browse.html" class="block text-gray-600 hover:text-primary py-2">Browse Experts</a>
+                <a href="about.html" class="block text-gray-600 hover:text-primary py-2">About</a>
+                <a href="contact.html" class="block text-gray-600 hover:text-primary py-2">Contact</a>
+                <a href="login.html" class="block text-gray-600 hover:text-primary py-2">Login</a>
+                <a href="register.html" class="block bg-primary text-white px-4 py-2 rounded-lg hover:bg-secondary transition mt-2">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-primary to-secondary text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">Connect with Expert Professionals</h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+                    Book appointments with teachers, mentors, financial advisors, and business professionals.
+                    Get expert guidance tailored to your needs.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="browse.html" class="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+                        Browse Experts
+                    </a>
+                    <a href="register.html" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-primary transition">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Choose BookMyExpert?</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Connect with verified professionals across various fields and book appointments that fit your schedule.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-user-check text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Verified Experts</h3>
+                    <p class="text-gray-600">All professionals are thoroughly vetted and verified for quality assurance.</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-clock text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Flexible Scheduling</h3>
+                    <p class="text-gray-600">Book appointments at your convenience with real-time availability.</p>
+                </div>
+                <div class="text-center p-6">
+                    <div class="bg-primary bg-opacity-10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-shield-alt text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Secure Platform</h3>
+                    <p class="text-gray-600">Your data and conversations are protected with enterprise-grade security.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Professional Categories</h2>
+                <p class="text-lg text-gray-600">Find experts in various fields to help you achieve your goals.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition cursor-pointer" onclick="browseByCategory('education')">
+                    <div class="text-center">
+                        <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-graduation-cap text-blue-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Education</h3>
+                        <p class="text-gray-600 text-sm">Teachers, tutors, and academic mentors</p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition cursor-pointer" onclick="browseByCategory('finance')">
+                    <div class="text-center">
+                        <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-chart-line text-green-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Finance</h3>
+                        <p class="text-gray-600 text-sm">Financial advisors and investment experts</p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition cursor-pointer" onclick="browseByCategory('business')">
+                    <div class="text-center">
+                        <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-store text-purple-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Business</h3>
+                        <p class="text-gray-600 text-sm">Business consultants and service providers</p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition cursor-pointer" onclick="browseByCategory('skills')">
+                    <div class="text-center">
+                        <div class="bg-orange-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-lightbulb text-orange-600 text-2xl"></i>
+                        </div>
+                        <h3 class="text-lg font-semibold mb-2">Skills</h3>
+                        <p class="text-gray-600 text-sm">Skill development and training experts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-primary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Get Started?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">
+                Join thousands of users who have already found their perfect expert match.
+            </p>
+            <a href="register.html" class="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition inline-block">
+                Create Your Account
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="fas fa-calendar-check text-primary text-2xl"></i>
+                        <span class="text-xl font-bold">BookMyExpert</span>
+                    </div>
+                    <p class="text-gray-400">Connecting you with verified professionals for personalized consultations.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="browse.html" class="text-gray-400 hover:text-white">Browse Experts</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Categories</h3>
+                    <ul class="space-y-2">
+                        <li><a href="browse.html?category=education" class="text-gray-400 hover:text-white">Education</a></li>
+                        <li><a href="browse.html?category=finance" class="text-gray-400 hover:text-white">Finance</a></li>
+                        <li><a href="browse.html?category=business" class="text-gray-400 hover:text-white">Business</a></li>
+                        <li><a href="browse.html?category=skills" class="text-gray-400 hover:text-white">Skills</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2025 BookMyExpert. All rights reserved.</p>
+                <p class="text-gray-500 text-sm mt-2">
+                    Made with <i class="fas fa-heart text-red-500"></i> by
+                    <span class="text-primary font-medium">Localghost</span> :)
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

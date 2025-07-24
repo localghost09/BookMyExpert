@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - BookMyExpert</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3B82F6',
+                        secondary: '#1E40AF'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center space-x-2">
+                        <i class="fas fa-calendar-check text-primary text-2xl"></i>
+                        <span class="text-xl font-bold text-gray-900">BookMyExpert</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-gray-600 hover:text-primary">Home</a>
+                    <a href="browse.html" class="text-gray-600 hover:text-primary">Browse Experts</a>
+                    <a href="about.html" class="text-gray-900 hover:text-primary font-medium">About</a>
+                    <a href="contact.html" class="text-gray-600 hover:text-primary">Contact</a>
+                    <a href="login.html" class="text-gray-600 hover:text-primary">Login</a>
+                    <a href="register.html" class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-secondary transition">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-primary to-secondary text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">About BookMyExpert</h1>
+                <p class="text-xl md:text-2xl max-w-3xl mx-auto">
+                    We're on a mission to democratize access to expert knowledge and
+                    make learning accessible to everyone, everywhere.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Mission</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        BookMyExpert was founded with the belief that everyone deserves access to high-quality,
+                        personalized guidance from experts in their field. Whether you're a student seeking
+                        academic help, an entrepreneur looking for business advice, or someone wanting to
+                        develop new skills, we connect you with the right expert.
+                    </p>
+                    <p class="text-lg text-gray-600">
+                        Our platform bridges the gap between those who need expertise and those who have it,
+                        creating meaningful connections that drive personal and professional growth.
+                    </p>
+                </div>
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop"
+                         alt="Team collaboration" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Our Values</h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    These core values guide everything we do and shape how we serve our community.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-heart text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Accessibility</h3>
+                    <p class="text-gray-600">
+                        We believe expert knowledge should be accessible to everyone, regardless of
+                        location, background, or circumstances.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-award text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Quality</h3>
+                    <p class="text-gray-600">
+                        We maintain the highest standards by carefully vetting our experts and
+                        continuously improving our platform.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md text-center">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                        <i class="fas fa-users text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-900 mb-4">Community</h3>
+                    <p class="text-gray-600">
+                        We foster a supportive community where learning thrives and meaningful
+                        connections are made.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
+                <p class="text-lg text-gray-600">
+                    Passionate individuals working to make expert knowledge accessible to all.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face"
+                         alt="Alex Johnson" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-semibold text-gray-900">Alex Johnson</h3>
+                    <p class="text-gray-600 mb-2">CEO & Co-Founder</p>
+                    <p class="text-sm text-gray-500">Former education technology executive with 15+ years of experience.</p>
+                </div>
+                <div class="text-center">
+                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b3d9?w=200&h=200&fit=crop&crop=face"
+                         alt="Sarah Martinez" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-semibold text-gray-900">Sarah Martinez</h3>
+                    <p class="text-gray-600 mb-2">CTO & Co-Founder</p>
+                    <p class="text-sm text-gray-500">Software architect passionate about building scalable platforms.</p>
+                </div>
+                <div class="text-center">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face"
+                         alt="David Kim" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+                    <h3 class="text-xl font-semibold text-gray-900">David Kim</h3>
+                    <p class="text-gray-600 mb-2">Head of Community</p>
+                    <p class="text-sm text-gray-500">Expert in building online communities and user engagement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-20 bg-primary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-4xl font-bold mb-2">10,000+</div>
+                    <div class="text-xl">Active Users</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold mb-2">500+</div>
+                    <div class="text-xl">Verified Experts</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold mb-2">50,000+</div>
+                    <div class="text-xl">Sessions Completed</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-bold mb-2">4.9/5</div>
+                    <div class="text-xl">Average Rating</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Ready to Start Learning?</h2>
+            <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+                Join our community and connect with experts who can help you achieve your goals.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="register.html" class="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-secondary transition">
+                    Get Started
+                </a>
+                <a href="browse.html" class="border-2 border-primary text-primary px-8 py-3 rounded-lg font-semibold hover:bg-primary hover:text-white transition">
+                    Browse Experts
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <i class="fas fa-calendar-check text-primary text-2xl"></i>
+                        <span class="text-xl font-bold">BookMyExpert</span>
+                    </div>
+                    <p class="text-gray-400">Connecting you with verified professionals for personalized consultations.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="browse.html" class="text-gray-400 hover:text-white">Browse Experts</a></li>
+                        <li><a href="about.html" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Categories</h3>
+                    <ul class="space-y-2">
+                        <li><a href="browse.html?category=education" class="text-gray-400 hover:text-white">Education</a></li>
+                        <li><a href="browse.html?category=finance" class="text-gray-400 hover:text-white">Finance</a></li>
+                        <li><a href="browse.html?category=business" class="text-gray-400 hover:text-white">Business</a></li>
+                        <li><a href="browse.html?category=skills" class="text-gray-400 hover:text-white">Skills</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2025 BookMyExpert. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
