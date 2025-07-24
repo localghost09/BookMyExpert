@@ -36,7 +36,7 @@ const expertsData = [
         rating: 4.7,
         reviews: 156,
         price: 95,
-        image: "https://images.unsplash.com/photo-1594736797933-d0f5340b0d0d?w=300&h=300&fit=crop&crop=face",
+        image: "https://plus.unsplash.com/premium_photo-1690407617686-d449aa2aad3c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         specialties: ["Strategy", "Marketing", "Operations"],
         experience: "10+ years",
         description: "Strategic business consultant with expertise in scaling startups across India and global markets."
