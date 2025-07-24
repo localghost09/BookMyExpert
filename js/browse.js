@@ -30,16 +30,16 @@ const expertsData = [
     },
     {
         id: 3,
-        name: "Emma Rodriguez",
+        name: "Priya Sharma",
         title: "Business Consultant",
         category: "business",
         rating: 4.7,
         reviews: 156,
         price: 95,
-        image: "https://images.unsplash.com/photo-1494790108755-2616b612b3d9?w=300&h=300&fit=crop&crop=face",
+        image: "https://images.unsplash.com/photo-1594736797933-d0f5340b0d0d?w=300&h=300&fit=crop&crop=face",
         specialties: ["Strategy", "Marketing", "Operations"],
         experience: "10+ years",
-        description: "Strategic business consultant with expertise in scaling startups."
+        description: "Strategic business consultant with expertise in scaling startups across India and global markets."
     },
     {
         id: 4,
@@ -95,16 +95,16 @@ const expertsData = [
     },
     {
         id: 8,
-        name: "Robert Kim",
+        name: "Arjun Patel",
         title: "Digital Marketing Expert",
         category: "skills",
         rating: 4.8,
         reviews: 88,
         price: 90,
-        image: "https://images.unsplash.com/photo-1556157382-97eda2f9e2bf?w=300&h=300&fit=crop&crop=face",
+        image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
         specialties: ["SEO", "Social Media", "Content Marketing"],
         experience: "7+ years",
-        description: "Digital marketing strategist with proven track record in growth."
+        description: "Digital marketing strategist with proven track record in growth across Indian and international markets."
     }
 ];
 
