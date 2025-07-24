@@ -126,3 +126,8 @@ const utils = {
         return re.test(phone);
     }
 };
+
+// Function to navigate to browse page with category filter
+function browseByCategory(category) {
+    window.location.href = `browse.html?category=${category}`;
+}
